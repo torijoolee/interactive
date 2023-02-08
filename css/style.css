@@ -1,0 +1,20 @@
+html {
+  cursor: none;
+}
+
+body {
+  background-color: black;
+  position: relative;
+}
+h1 {
+  color: white;
+}
+.cursor-item {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

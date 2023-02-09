@@ -10,7 +10,12 @@
   </head>
   <body>
     <h1 class="text">test</h1>
+    <span class="price">가격</span>
     <div class="cursor-item"></div>
     <script src="js/main.js"></script>
+    <script>
+      let car = { name: "소나타", price: [50000, 3000, 200] };
+      document.querySelector(".price").innerHTML = car.price[1];
+    </script>
   </body>
 </html>
